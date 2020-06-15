@@ -7,6 +7,9 @@
       <module fileurl="file://$PROJECT_DIR$/1996-common/1996-common-enties/1996-common-enties.iml" filepath="$PROJECT_DIR$/1996-common/1996-common-enties/1996-common-enties.iml" />
       <module fileurl="file://$PROJECT_DIR$/1996-common/1996-common-module/1996-common-module.iml" filepath="$PROJECT_DIR$/1996-common/1996-common-module/1996-common-module.iml" />
       <module fileurl="file://$PROJECT_DIR$/1996-common/1996-common-utils/1996-common-utils.iml" filepath="$PROJECT_DIR$/1996-common/1996-common-utils/1996-common-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/departure_car/departure_car.iml" filepath="$PROJECT_DIR$/departure_car/departure_car.iml" />
+      <module fileurl="file://$PROJECT_DIR$/departure_car/departure_car-consumer/departure_car-consumer.iml" filepath="$PROJECT_DIR$/departure_car/departure_car-consumer/departure_car-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/departure_car/departure_car-provider/departure_car-provider.iml" filepath="$PROJECT_DIR$/departure_car/departure_car-provider/departure_car-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/driver/driver.iml" filepath="$PROJECT_DIR$/driver/driver.iml" />
       <module fileurl="file://$PROJECT_DIR$/driver/driver-consumer/driver-consumer.iml" filepath="$PROJECT_DIR$/driver/driver-consumer/driver-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/driver/driver-provider/driver-provider.iml" filepath="$PROJECT_DIR$/driver/driver-provider/driver-provider.iml" />

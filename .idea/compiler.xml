@@ -9,6 +9,8 @@
         <module name="driver-provider" />
         <module name="driver-consumer" />
         <module name="goods-consumer" />
+        <module name="departure_car-provider" />
+        <module name="departure_car-consumer" />
         <module name="1996-common-utils" />
         <module name="goods-providers" />
         <module name="1996-common-module" />
@@ -22,6 +24,9 @@
       <module name="1996-common-parent" target="1.8" />
       <module name="1996-common-utils" target="6" />
       <module name="1996-Pro" target="1.5" />
+      <module name="departure_car" target="1.5" />
+      <module name="departure_car-consumer" target="1.5" />
+      <module name="departure_car-provider" target="1.5" />
       <module name="driver" target="1.5" />
       <module name="driver-consumer" target="1.5" />
       <module name="driver-provider" target="1.5" />
