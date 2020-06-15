@@ -3,7 +3,7 @@ package cn.popdemo.service;
 public interface Driver {
     //个人状态页面
         //显示当前驾驶员的状态
-
+    public void  driverdriverPop();
         //车牌号信息
         //出车信息
         //出车详细信息

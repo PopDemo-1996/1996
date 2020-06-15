@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="driver-provider" />
+        <module name="driver-consumer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="1996-Pro" target="1.5" />
+      <module name="driver" target="1.5" />
+      <module name="driver-consumer" target="1.5" />
+      <module name="driver-provider" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
