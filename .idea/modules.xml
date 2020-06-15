@@ -3,9 +3,16 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/1996-Pro.iml" filepath="$PROJECT_DIR$/1996-Pro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1996-common/1996-common.iml" filepath="$PROJECT_DIR$/1996-common/1996-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1996-common/1996-common-enties/1996-common-enties.iml" filepath="$PROJECT_DIR$/1996-common/1996-common-enties/1996-common-enties.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1996-common/1996-common-module/1996-common-module.iml" filepath="$PROJECT_DIR$/1996-common/1996-common-module/1996-common-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1996-common/1996-common-utils/1996-common-utils.iml" filepath="$PROJECT_DIR$/1996-common/1996-common-utils/1996-common-utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/driver/driver.iml" filepath="$PROJECT_DIR$/driver/driver.iml" />
       <module fileurl="file://$PROJECT_DIR$/driver/driver-consumer/driver-consumer.iml" filepath="$PROJECT_DIR$/driver/driver-consumer/driver-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/driver/driver-provider/driver-provider.iml" filepath="$PROJECT_DIR$/driver/driver-provider/driver-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/goods/goods.iml" filepath="$PROJECT_DIR$/goods/goods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/goods/goods-consumer/goods-consumer.iml" filepath="$PROJECT_DIR$/goods/goods-consumer/goods-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/goods/goods-provider/goods-providers.iml" filepath="$PROJECT_DIR$/goods/goods-provider/goods-providers.iml" />
     </modules>
   </component>
 </project>

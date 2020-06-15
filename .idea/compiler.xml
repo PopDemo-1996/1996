@@ -8,13 +8,31 @@
         <outputRelativeToContentRoot value="true" />
         <module name="driver-provider" />
         <module name="driver-consumer" />
+        <module name="goods-consumer" />
+        <module name="1996-common-utils" />
+        <module name="goods-providers" />
+        <module name="1996-common-module" />
+        <module name="1996-common-enties" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="1996-common" target="1.5" />
+      <module name="1996-common-enties" target="1.5" />
+      <module name="1996-common-module" target="1.5" />
+      <module name="1996-common-parent" target="1.8" />
+      <module name="1996-common-utils" target="6" />
       <module name="1996-Pro" target="1.5" />
       <module name="driver" target="1.5" />
       <module name="driver-consumer" target="1.5" />
       <module name="driver-provider" target="1.5" />
+      <module name="goods" target="1.5" />
+      <module name="goods-consumer" target="1.5" />
+      <module name="goods-providers" target="1.5" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="1996-common-parent" options="-parameters" />
+    </option>
   </component>
 </project>
