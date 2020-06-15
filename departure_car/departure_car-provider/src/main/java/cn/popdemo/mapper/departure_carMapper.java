@@ -1,5 +1,9 @@
 package cn.popdemo.mapper;
 
+import cn.popdemo.DepartureCar;
+
+import java.util.Map;
+
 /**
  * 〈一句话功能简述〉<br>
  * 〈〉
@@ -10,4 +14,5 @@ package cn.popdemo.mapper;
  * @since 1.0.0
  */
 public interface departure_carMapper {
+    DepartureCar Getdepartuyre_carList(Map map);
 }

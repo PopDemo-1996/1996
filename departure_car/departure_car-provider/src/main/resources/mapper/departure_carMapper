@@ -3,6 +3,8 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="cn.popdemo.mapper.departure_carMapper">
-
+    <select id="Getdepartuyre_carList" parameterType="java.util.Map">
+        SELECT * FROM departure_car d,driver d1,supplier s,truck t WHERE d.depdriver=d1.driverID AND  d.deptruck=t.truckId AND d.`depsupID`=s.`supID`
+    </select>
 
 </mapper>
