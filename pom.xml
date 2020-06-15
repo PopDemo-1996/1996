@@ -12,6 +12,13 @@
         <module>driver-consumer</module>
         <module>driver</module>
         <module>driver</module>
+        <module>Goods</module>
+      <module>goods</module>
+      <module>goos</module>
+      <module>goods</module>
+      <module>goods-provider</module>
+      <module>goods</module>
+      <module>goods-consumer</module>
     </modules>
 
     <name>Maven</name>
