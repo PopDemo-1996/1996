@@ -9,16 +9,9 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>driver-consumer</module>
+      <module>1996-common-parent</module>
         <module>driver</module>
-        <module>driver</module>
-        <module>Goods</module>
       <module>goods</module>
-      <module>goos</module>
-      <module>goods</module>
-      <module>goods-provider</module>
-      <module>goods</module>
-      <module>goods-consumer</module>
     </modules>
 
     <name>Maven</name>
