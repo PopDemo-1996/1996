@@ -12,6 +12,7 @@
         <module>driver</module>
       <module>goods</module>
       <module>1996-common</module>
+      <module>departure_car</module>
     </modules>
 
     <name>Maven</name>
