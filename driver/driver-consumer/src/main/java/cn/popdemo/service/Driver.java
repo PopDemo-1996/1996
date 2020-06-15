@@ -1,7 +1,6 @@
 package cn.popdemo.service;
 
-import cn.popdemo.pojo.Truck;
-import org.omg.CORBA.INTERNAL;
+import cn.popdemo.Truck;
 
 import java.util.List;
 

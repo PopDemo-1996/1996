@@ -1,4 +1,4 @@
-package cn.popdemo.pojo;
+package cn.popdemo;
 
 import java.io.Serializable;
 

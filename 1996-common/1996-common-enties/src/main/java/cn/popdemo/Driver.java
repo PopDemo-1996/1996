@@ -1,7 +1,6 @@
-package cn.popdemo.pojo;
+package cn.popdemo;
 
 import java.io.Serializable;
-import java.util.Date;
 
 //实体类模板案例
 public class Driver implements Serializable {
