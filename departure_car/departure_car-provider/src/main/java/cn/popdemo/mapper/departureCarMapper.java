@@ -1,6 +1,7 @@
 package cn.popdemo.mapper;
 
 import cn.popdemo.departureCar;
+import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 import java.util.Map;
@@ -14,6 +15,7 @@ import java.util.Map;
  * @create 2020/6/16
  * @since 1.0.0
  */
+@Mapper
 public interface departureCarMapper {
     List<departureCar> GetdepartureCarList();
 }
