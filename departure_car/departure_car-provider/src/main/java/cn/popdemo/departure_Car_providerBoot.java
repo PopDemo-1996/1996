@@ -15,7 +15,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @EnableDubbo
-public class departure_Car_providerBoot {
+public class departure_Car_providerBoot{
     public static void main(String[] args) {
 
         SpringApplication.run(departure_Car_providerBoot.class, args);
