@@ -3,6 +3,8 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="cn.popdemo.mapper.LoginMapper">
-
-
+    <!--驾驶员登录查询-->
+    <select id="SelectDriverbyDriverNameAndDriverPassword" resultType="cn.popdemo.mapper.LoginMapper" parameterType="java.util.Map">
+    select * from Driver where driverName=#{drivername} and driverPassword=#{driverPwd}
+    </select>
 </mapper>

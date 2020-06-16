@@ -18,7 +18,7 @@ public class Driver implements Serializable {
     //驾驶员当前状态
     private Integer  driverPop;
     //驾驶员ID
-    private Integer  driverID;
+    private int  driverID;
     //驾驶员密码
     private String  driverPassword;
 
@@ -70,11 +70,11 @@ public class Driver implements Serializable {
         this.driverPop = driverPop;
     }
 
-    public Integer getDriverID() {
+    public int getDriverID() {
         return driverID;
     }
 
-    public void setDriverID(Integer driverID) {
+    public void setDriverID(int driverID) {
         this.driverID = driverID;
     }
 

@@ -1,9 +1,10 @@
 package cn.popdemo.service.login;
 
-import cn.popdemo.dto.ReturnResult;
+import cn.popdemo.Driver;
+
+import java.util.Map;
 
 public interface LoginService {
-    //通过名字和密码登录
-    public ReturnResult login(String driverName, String driverPassword) throws Exception;
-
+    //驾驶员查询
+    public Driver SelectDriverbyDriverNameAndDriverPassword(String driverName,String driverPasswoed) throws Exception;
 }

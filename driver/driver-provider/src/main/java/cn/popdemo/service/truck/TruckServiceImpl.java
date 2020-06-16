@@ -1,18 +1,20 @@
 package cn.popdemo.service.truck;
 
+import cn.popdemo.Truck;
+
 import java.util.List;
 
 public class TruckServiceImpl implements TruckService {
 
-    public List<cn.popdemo.pojo.Truck> SelectTruckTruckNumber(Integer truckNumber) throws Exception {
+    public List<Truck> SelectTruckTruckNumber(Integer truckNumber) throws Exception {
         return null;
     }
 
-    public List<cn.popdemo.pojo.Truck> SelectTruck() throws Exception{
+    public List<Truck> SelectTruck() throws Exception{
         return null;
     }
 
-    public List<cn.popdemo.pojo.Truck> SelectTruckList()  throws Exception{
+    public List<Truck> SelectTruckList()  throws Exception{
         return null;
     }
 }
