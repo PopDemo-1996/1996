@@ -1,7 +1,8 @@
 package cn.popdemo.mapper;
 
-import cn.popdemo.DepartureCar;
+import cn.popdemo.departureCar;
 
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -13,6 +14,6 @@ import java.util.Map;
  * @create 2020/6/16
  * @since 1.0.0
  */
-public interface departure_carMapper {
-    DepartureCar Getdepartuyre_carList(Map map);
+public interface departureCarMapper {
+    List<departureCar> GetdepartureCarList();
 }
