@@ -4,5 +4,70 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="cn.popdemo.mapper.DriverMapper">
 
+    <!--查询驾驶员当前ID-->
+    <select id="">
 
+    </select>
+
+    <!--添加驾驶员-->
+    <insert id="InsertDriverList" parameterType="cn.popdemo.Driver">
+        insert into driver(
+        driverName,
+        driverSex,
+        driverPassword)
+        values(
+            #{driverName},
+            #{driverSex},
+            #{driverPassword})
+    </insert>
+    <!--删除驾驶员-->
+    <delete id="Delete" parameterType="String">
+    delete from driver where driverID=#{id}
+    </delete>
+    <!--修改驾驶员-->
+    <update id="UpdateDriver" parameterType="cn.popdemo.Driver">
+        update driver
+        <trim prefix="set" suffixOverrides="," suffix="where id=#{id}">
+            <if test="driverName != null and driverName!=''">
+                driverName=#{driverName},
+            </if>
+            <if test="driverAge != null and driverAge!=''">
+                driverAge=#{driverAge},
+            </if>
+            <if test="driverPassword != null and driverPassword!=''">
+                driverPassword=#{driverPassword},
+            </if>
+        </trim>
+    </update>
+    <!--查询所有驾驶员-->
+    <select id="">
+        select driverID as driverID,
+        driverName as driverName,
+        driverFile as driverFile,
+        driverSex as driverSex,
+        driverCarAge as driverCarAge,
+        driverAge as driverAge,
+        driverPop as driverPop,
+        driverPassword as driverPassword
+        from driver
+    </select>
+    <!--根据ID查询驾驶员-->
+    <select id="SelectByIdDriver" resultType="cn.popdemo.Driver">
+        select
+        driverID as driverID,
+        driverName as driverName,
+        driverFile as driverFile,
+        driverSex as driverSex,
+        driverCarAge as driverCarAge,
+        driverAge as driverAge,
+        driverPop as driverPop,
+        driverPassword as driverPassword
+        from driver
+        <trim prefix="where" prefixOverrides="and | or">
+            <if test="driverID != null">
+                and driverID=#{driverID}
+            </if>
+        </trim>
+
+    </select>
 </mapper>

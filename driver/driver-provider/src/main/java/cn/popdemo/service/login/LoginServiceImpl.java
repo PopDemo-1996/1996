@@ -19,7 +19,7 @@ public class LoginServiceImpl implements LoginService {
     private LoginMapper loginMapper;
 
 
-    public Driver SelectDriverbyDriverNameAndDriverPassword(String driverName,String driverPasswoed) throws Exception {
+    public Driver SelectDriverbyDriverNameAndDriverPassword(String driverName,String driverPassword) throws Exception {
         Map<String,String> params  = new HashMap<String, String>();
         params.put("driverName","drivername");
         params.put("driverPassword","driverPwd");
